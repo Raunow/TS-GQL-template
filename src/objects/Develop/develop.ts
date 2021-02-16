@@ -6,9 +6,7 @@ import { ENV } from '../../extensions/ApolloSetup';
 export class Stats {
 	constructor() {
 		const include = ['hostname', 'type', 'platform', 'arch', 'homedir'];
-		include.map(key => {
-			(<any>this)[key] = (<any>os)[key]();
-		});
+		include.map((key: string) => (<any>this)[key] = (<any>os)[key]());
 	}
 	@Field()
 	hostname: string;

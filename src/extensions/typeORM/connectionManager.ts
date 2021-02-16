@@ -7,7 +7,7 @@ const mssqlDefaults = {
 	schema: 'dbo',
 	synchronize: false,
 	logging: false,
-	maxQueryExecutionTime: 7000,
+	maxQueryExecutionTime: 3000,
 	cache: 5000,
 	options: {
 		enableArithAbort: true,
