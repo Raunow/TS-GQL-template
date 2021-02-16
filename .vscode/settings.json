@@ -1,0 +1,25 @@
+{
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "modifications",
+	"editor.semanticHighlighting.enabled": true,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"prettier.requireConfig": true,
+	"search.exclude": {
+		"**/.git": true,
+		"**/node_modules": true,
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"[javascript]": {
+		"editor.formatOnSave": false
+	}
+}
